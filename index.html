@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>🎵 Music Player</h1>
+
+<input type="text" id="search" placeholder="Search songs...">
+
+<select id="genreFilter">
+  <option value="">All Genres</option>
+  <option value="Pop">Pop</option>
+  <option value="Rock">Rock</option>
+</select>
+
+<select id="artistFilter">
+  <option value="">All Artists</option>
+  <option value="Artist 1">Artist 1</option>
+  <option value="Artist 2">Artist 2</option>
+</select>
+
+<div id="songContainer"></div>
+
+<h2>Now Playing</h2>
+<div id="nowPlaying"></div>
+
+<h2>Recently Played</h2>
+<div id="recent"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
